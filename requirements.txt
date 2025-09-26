@@ -1,0 +1,23 @@
+# UI
+streamlit
+
+# Core LangChain and community integrations (FAISS, BM25, cross-encoders, ollama)
+langchain
+langchain-community
+langchain-ollama
+
+# Vector store
+faiss-cpu
+
+# Retrieval utilities
+datasets
+rank-bm25
+
+# Embeddings / Reranking
+sentence-transformers
+transformers
+torch
+numpy
+
+# Hugging Face utilities
+huggingface-hub
