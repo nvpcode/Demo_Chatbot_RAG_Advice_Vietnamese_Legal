@@ -1,5 +1,5 @@
-# ⚖️ Chatbot Hỏi-Đáp Pháp Luật Việt Nam (RAG)
-Trợ lý AI trả lời câu hỏi pháp luật Việt Nam dựa trên tri thức được truy xuất (RAG). Hệ thống kết hợp FAISS (dense) + BM25 (sparse) + Cross-Encoder Reranker để chọn lọc ngữ cảnh, sinh đáp án bằng mô hình trên Ollama, và có bộ nhớ đệm (cache) tiết kiệm thời gian truy vấn.
+# ⚖️ Chatbot Tư Vấn Pháp Luật Việt Nam (RAG)
+Trợ lý AI có vai trò như một luật sư giúp tư vấn các vấn đề liên quan đến pháp luật Việt Nam dựa trên tri thức được truy xuất (RAG). Hệ thống kết hợp FAISS (dense) + BM25 (sparse) + Cross-Encoder Reranker để chọn lọc ngữ cảnh, sinh đáp án bằng mô hình trên Ollama, và có bộ nhớ đệm (cache) tiết kiệm thời gian truy vấn.
 
 ## 📊 Kết quả
 ![Sample Image](demo/demo.png)
