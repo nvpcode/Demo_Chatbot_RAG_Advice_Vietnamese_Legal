@@ -8,7 +8,7 @@ Trợ lý AI có vai trò như một luật sư giúp tư vấn các vấn đề
 ## 🎯 Tính năng
 - **RAG Hybrid**: FAISS + BM25 (kết hợp bằng EnsembleRetriever).
 - **Reranking**: `BAAI/bge-reranker-base` tăng chất lượng kết quả truy xuất.
-- **LLM (Ollama)**: gọi mô hình từ Ollama server (ví dụ `incept5/llama3.1-claude:latest`).
+- **LLM (Ollama)**: gọi mô hình từ Ollama server (ví dụ `gpt-oss:20b`).
 - **Dữ liệu**: tự động tải bộ `namphan1999/data-luat` (Hugging Face datasets).
 - **UI**: Streamlit, chat realtime, xóa cache, làm mới cuộc hội thoại.
 - **Cache**:
@@ -39,7 +39,7 @@ Trợ lý AI có vai trò như một luật sư giúp tư vấn các vấn đề
 Yêu cầu:
 - Đã cài và chạy Ollama: `ollama serve`
 - Đã pull model phù hợp, ví dụ:
-  - `ollama pull incept5/llama3.1-claude:latest`
+  - `ollama pull gpt-oss:20b`
   - `ollama pull embeddinggemma:300m` nếu dùng cho vector DB
 
 Cài thư viện:
